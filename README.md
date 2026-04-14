@@ -93,7 +93,42 @@ Final Answer Generation
 ## 📁 Project Structure
 Hybrid_seach_RAG/
 
-
+HYBRID_RAG/
+│
+├── data/
+│ └── GenAI_pdf.pdf # Input PDF document (knowledge source)
+│
+├── embeddings/
+│ ├── dense.py # Dense (vector) embedding logic
+│ ├── sparse.py # Sparse (BM25 / keyword) retrieval logic
+│
+├── evaluation/
+│ ├── init.py
+│ ├── metrics.py # Evaluation metrics for RAG performance
+│ ├── testcase.py # Test cases for system evaluation
+│
+├── generation/
+│ └── llm.py # LLM response generation module
+│
+├── ingestion/
+│ ├── init.py
+│ ├── chunking.py # Splitting documents into chunks
+│ ├── loader.py # Loading PDF/data ingestion logic
+│
+├── retrieval/
+│ ├── hybrid_search.py # Hybrid search (dense + sparse fusion)
+│ ├── reranker.py # Re-ranking retrieved results
+│
+├── vectorstore/
+│ └── pinecone_db.py # Vector DB integration (Pinecone)
+│
+├── venv/ # Virtual environment
+│
+├── .env # Environment variables (API keys, configs)
+├── .gitignore # Git ignore rules
+├── main.py # Entry point of the application
+├── requirements.txt # Project dependencies
+└── README.md # Project documentation
 
 
 ---
