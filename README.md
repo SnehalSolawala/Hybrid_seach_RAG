@@ -83,13 +83,11 @@ Final Answer Generation
 
 ## 🧰 Tech Stack
 
-- Python 🐍
-- LangChain (if used in project)
+- Python
+- LangChain
 - FAISS / ChromaDB (Vector Database)
 - BM25 (Keyword Search)
 - OpenAI / Ollama / LLM APIs
-- FastAPI (for API layer, if applicable)
-- Docker (optional deployment)
 
 ---
 
