@@ -153,6 +153,8 @@ Top relevant chunks are selected.
 ### 7. LLM Generation
 The selected context is passed to an LLM to generate a final grounded response.
 
+---
+
 ### Evaluation : 
 using RAGAS framework
 using ollama = llama3:latest
@@ -162,7 +164,8 @@ using openAI : gpt-3.5-turbo
 RAGAS Results:
 
 {'answer_relevancy': 0.7029, 'faithfulness': 0.8211, 'context_precision': 0.8667, 'context_recall': 0.9444}
----
+
+
 
 ## ▶️ How to Run the Project
 
