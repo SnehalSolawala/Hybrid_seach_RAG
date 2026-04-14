@@ -77,7 +77,6 @@ Final Answer Generation
 - 🤖 LLM-powered response generation
 - 📄 Works with custom documents (PDF, text, etc.)
 - 🔧 Modular and scalable architecture
-- 🐳 Ready for deployment (Docker support if enabled)
 
 ---
 
