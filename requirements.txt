@@ -1,0 +1,12 @@
+pinecone
+sentence-transformers
+transformers
+langchain
+PyPDF2
+requests
+ragas
+datasets
+langchain_community
+rank_bm25
+python-dotenv
+openai
